@@ -5,11 +5,29 @@
   <path d="
     M206 114
     C
-    237 53 417 13 410 99 
-    402 212 357 236 272 221 
-    202 209 186 151 206 114z" fill="none" stroke="#000" stroke-width="1px"/>
+    237 53 417 13 30 99 
+    301 54 370 236 272 221 
+    202 209 186 151 402 114z" fill="none" stroke="#000" stroke-width="1px"/>
 
   <circle fill="Lavender" stroke="#f0f" cx="206" cy="114" r="16" opacity="0.2">
+    <animate attributeName="opacity" to="1" begin="0s" dur="2s" fill="freeze" repeatCount="0" />
+  </circle>
+ <circle fill="green" stroke="yellow" cx="256" cy="334" r="6" opacity="0.2">
+    <animate attributeName="opacity" to="1" begin="0s" dur="2s" fill="freeze" repeatCount="0" />
+  </circle>
+ <circle fill="red" stroke="red" cx="123" cy="204" r="16" opacity="0.2">
+    <animate attributeName="opacity" to="1" begin="0s" dur="2s" fill="freeze" repeatCount="0" />
+  </circle>
+ <circle fill="orange" stroke="orange" cx="200" cy="454" r="10" opacity="0.2">
+    <animate attributeName="opacity" to="1" begin="0s" dur="2s" fill="freeze" repeatCount="0" />
+  </circle>
+ <circle fill="skyblue" stroke="blue" cx="105" cy="114" r="12" opacity="0.6">
+    <animate attributeName="opacity" to="1" begin="0s" dur="2s" fill="freeze" repeatCount="0" />
+  </circle>
+ <circle fill="purple" stroke="purple" cx="300" cy="320" r="16" opacity="0.2">
+    <animate attributeName="opacity" to="1" begin="0s" dur="2s" fill="freeze" repeatCount="0" />
+  </circle>
+ <circle fill="yellow" stroke="yellow" cx="400" cy="114" r="16" opacity="0.02">
     <animate attributeName="opacity" to="1" begin="0s" dur="2s" fill="freeze" repeatCount="0" />
   </circle>
 
