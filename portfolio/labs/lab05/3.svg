@@ -38,7 +38,11 @@
 
   
   <circle fill="blue" stroke="black" stroke-width="5" cx="256" cy="256" r="150"/>
-  <circle fill="white" stroke="black" stroke-width="5" cx="256" cy="280" r="125"/>
+  <circle fill="white" stroke="black" stroke-width="5" cx="256" cy="280" r="120"/>
+  <ellipse fill="white" stroke="black" stroke-width="2" cx="228" cy="192" rx="30" ry="50"/>
+  <ellipse fill="white" stroke="black" stroke-width="2" cx="285" cy="192" rx="30" ry="50"/>
+  <ellipse fill="black" stroke="black" stroke-width="2" cx="228" cy="192" rx="10" ry="20"/>
+  <ellipse fill="black" stroke="black" stroke-width="2" cx="285" cy="192" rx="10" ry="20"/>
   <ellipse fill="red" stroke="black" stroke-width="2" cx="256" cy="280" rx="6" ry="5"/>
  
 </svg>
