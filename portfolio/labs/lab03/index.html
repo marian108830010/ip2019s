@@ -10,12 +10,29 @@
   <title> lab03 </title>
   <link rel="stylesheet" href="./lab.css">
   <script src="./lab.js"></script>
+
+  <script src="./svg.min.js"></script>
+  <script src="./svg.draggable.min.js"></script>
+  <script src="./lab.js"></script>
 </head>
 
 <body>
 
   <div>
-	<input type="file" id="files" name="files[]" multiple />
+    開啟舊檔(3-3-a-3.svg): <input type="file" id="files" name="files[]" multiple />
+    另存新檔: <input id="svgfilename" value="filename.svg"></input><<button id="save">Save</button>
+  </div>
+
+  <div>
+    <!-- cols="68" rows="32"> -->
+    <!-- cols="128" rows="32"> -->
+    <textarea id="content" cols="88" rows="32"></textarea>
+    <span id="svgimage"></span>
+  </div>
+
+  <span></span>
+  <div>
+	 <input type="file" id="files" name="files[]" multiple />
   </div>
 
   <div>
